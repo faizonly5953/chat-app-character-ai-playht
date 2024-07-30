@@ -90,6 +90,11 @@ Before you begin, ensure you have the following installed:
 
    The audio file will be automatically appended below the chat box, where you can play it.
 
+#### Overview
+![image](https://github.com/user-attachments/assets/0f286d1a-737f-4eb5-81b7-da901d5bf846)
+
+
+
 ### Project Structure
 
 - `public/` - Contains static files such as HTML, CSS, and JavaScript.
