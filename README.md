@@ -43,7 +43,7 @@ Before you begin, ensure you have the following installed:
    OR
 
    ### On PC:
-    Open the Character.AI website in your browser (https://beta.character.ai)
+    Open the Character.AI website in your browser (https://old.character.ai)
     Open the developer tools (<kbd>F12</kbd>, <kbd>Ctrl+Shift+I</kbd>, or <kbd>Cmd+J</kbd>)
     Go to the `Application` tab
     Go to the `Storage` section and click on `Local Storage`
