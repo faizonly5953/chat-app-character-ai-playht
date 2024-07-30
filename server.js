@@ -13,14 +13,14 @@ const characterAI = new CharacterAI();
 
 // Initialize PlayHT API with your credentials
 PlayHT.init({
-  apiKey: 'a09b13724e7642649f86a25dc7d704a8',
-  userId: 'GEVipiR65JRsnia4wGaJZ15N2Em2',
+  apiKey: 'your_api_key',
+  userId: 'your_api_key',
 });
 
 // Configure streaming options
 const streamingOptions = {
   voiceEngine: 'PlayHT2.0-turbo',
-  voiceId: 's3://voice-cloning-zero-shot/a926dcdb-d614-4966-998a-9bd1f9d21eaa/original/manifest.json',
+  voiceId: 's3://voice-cloning-zero-shot/a926dcdb-d614-4966-998a-9bd1f9d21eaa/original/manifest.json', //example voice
   sampleRate: 44100,
   outputFormat: 'mp3',
   speed: 0.8,
@@ -30,9 +30,9 @@ app.use(express.static("public"));
 
 (async () => {
   try {
-    await characterAI.authenticateWithToken("87b4db5e806cf5e924efbdcf54e6ce6e01410789");
+    await characterAI.authenticateWithToken("your_user_token");
 
-    const characterId = "Dvm_7p9ea1uPKtENq18-tjJqHpFkdmP-nFreeGx00s0";
+    const characterId = "your_character_token";
     const chat = await characterAI.createOrContinueChat(characterId);
 
     io.on("connection", (socket) => {
