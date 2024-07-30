@@ -36,6 +36,21 @@ Before you begin, ensure you have the following installed:
 3. **Set up your API keys:**
 
    - Change The All API Key From `server.js`
+     
+   - **How To Get C.AI Token**
+   See This Python Docs : [CLICK HERE](https://docs.kram.cat/auth.html)
+
+   OR
+
+   ### On PC:
+    Open the Character.AI website in your browser (https://beta.character.ai)
+    Open the developer tools (<kbd>F12</kbd>, <kbd>Ctrl+Shift+I</kbd>, or <kbd>Cmd+J</kbd>)
+    Go to the `Application` tab
+    Go to the `Storage` section and click on `Local Storage`
+    Look for the `char_token` key
+    Open the object, right click on value and copy your session token.
+
+![Session_Token](https://github.com/realcoloride/node_characterai/assets/108619637/1d46db04-0744-42d2-a6d7-35152b967a82)
 
      ```bash
      CHARACTER_AI_TOKEN=your_character_ai_token
@@ -43,7 +58,7 @@ Before you begin, ensure you have the following installed:
      PLAYHT_USER_ID=your_playht_user_id
      ```
 
-4. **Change Character ID**
+5. **Change Character ID**
   - In `server.js` in `line 35`, change character id from Character Ai as You Like
     ```bash
     const characterId = "your_character_id";
@@ -101,3 +116,4 @@ If you would like to contribute to this project, please follow these steps:
 - [PlayHT](https://play.ht) for their text-to-speech service.
 - [Node.js](https://nodejs.org) for the runtime environment.
 - [Socket.io](https://socket.io) for real-time communication.
+- [kramcat](https://github.com/kramcat/CharacterAI) for Authorization
