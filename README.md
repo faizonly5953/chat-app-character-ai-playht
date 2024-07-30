@@ -50,7 +50,7 @@ Before you begin, ensure you have the following installed:
     Look for the `char_token` key
     Open the object, right click on value and copy your session token.
 
-![Session_Token](https://github.com/realcoloride/node_characterai/assets/108619637/1d46db04-0744-42d2-a6d7-35152b967a82)
+   ![Session_Token](https://github.com/realcoloride/node_characterai/assets/108619637/1d46db04-0744-42d2-a6d7-35152b967a82)
 
      ```bash
      CHARACTER_AI_TOKEN=your_character_ai_token
@@ -63,6 +63,8 @@ Before you begin, ensure you have the following installed:
     ```bash
     const characterId = "your_character_id";
     ```
+   ![Character_ID](https://i.imgur.com/nd86fN4.png)
+
 
 4. **Run the server:**
 
