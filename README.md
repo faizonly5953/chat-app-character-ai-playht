@@ -120,7 +120,7 @@ If you would like to contribute to this project, please follow these steps:
 - Connecting ChatApp with image generation (Stable Diffusion)
 - Create a function where for every conversation, AI will generate an 'Emotion' image of its own face
 - Make More Responsive WebUI
--I Think create a deepfake so that AI from the image generation results, to combine audio and image generation, create an AI representation via Video source (but that is if I already have enough logic to make it 💀 ) 
+- I Think create a deepfake so that AI from the image generation results, to combine audio and image generation, create an AI representation via Video source (but that is if I already have enough logic to make it 💀 ) 
 
 
 ### Thanks To
