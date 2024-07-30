@@ -116,6 +116,13 @@ If you would like to contribute to this project, please follow these steps:
 5. Push to the branch (`git push origin feature-branch`).
 6. Create a new Pull Request.
 
+### To-do list
+- Connecting ChatApp with image generation (Stable Diffusion)
+- Create a function where for every conversation, AI will generate an 'Emotion' image of its own face
+- Make More Responsive WebUI
+-I Think create a deepfake so that AI from the image generation results, to combine audio and image generation, create an AI representation via Video source (but that is if I already have enough logic to make it 💀 ) 
+
+
 ### Thanks To
 
 - [realcoloride](https://github.com/realcoloride/node_characterai) for Unofficial API
@@ -124,3 +131,5 @@ If you would like to contribute to this project, please follow these steps:
 - [Node.js](https://nodejs.org) for the runtime environment.
 - [Socket.io](https://socket.io) for real-time communication.
 - [kramcat](https://github.com/kramcat/CharacterAI) for Authorization
+- [Claude.Ai](https://claude.ai/) For Base Design
+- [ChatGPT](https://chatgpt.com/) For Base Code Generation
