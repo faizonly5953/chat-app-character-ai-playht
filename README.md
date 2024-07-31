@@ -23,7 +23,7 @@ Before you begin, ensure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/chat-app-character-ai-playht.git
+   git clone https://github.com/faizonly5953/chat-app-character-ai-playht.git
    cd chat-app-character-ai-playht
    ```
 
