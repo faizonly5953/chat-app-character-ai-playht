@@ -1,3 +1,5 @@
+# ARCHIVE BECAUSE OLD.CHARACTER.AI AS BASE AI MODEL DOESNT WORK ANYMORE
+
 # Chat App with Character.ai and PlayHT
 
 This project is a chat application that integrates Character.ai's unofficial API for generating AI responses and PlayHT for converting those responses into audio files. It is built using Node.js, HTML, CSS, and JavaScript.
